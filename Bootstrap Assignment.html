@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!-- This is Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    #header {
+      background-color: #347383;
+    }
+
+    .light-line {
+      width: 80px;
+      border: 2px solid #ffffff;
+    }
+
+    #portfolio img {
+      width: 300px;
+    }
+
+    .dark-line {
+      width: 80px;
+      border: 2px solid #0e0d0d;
+    }
+
+    #about {
+      background-color: #347383;
+    }
+
+    .h1 {
+      margin-top: 4%;
+    }
+
+    .light-line {
+      width: 80px;
+      border: 2px solid #ffffff;
+    }
+
+    .btn {
+      border: solid #ffffff;
+      color: white;
+      padding: 6px 15px;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 6%;
+      padding-top: 1.5%;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+
+    #contact button {
+      margin-bottom: 10%;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      background-color: #347383;
+      border: #347383;
+      color: #ffffff;
+      border-radius: 6%;
+    }
+
+    #footer {
+      background-color: #33383c;
+      color: #ffffff;
+      padding: 70px 0px;
+      font-family: poppins;
+    }
+
+    i {
+      border: 1px solid #ffffff;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 30px;
+      margin-bottom: 4%;
+    }
+
+    .h4 {
+      font-size: 24px;
+    }
+    #copyright p{
+      background-color: #0e0d0d;
+      text-align: center;
+      color: #ffffff;
+}
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Sana Hameed</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="header">
+    <div class="container text-center pt-5 pb-5 text-white">
+      <img src="https://cdn-icons-png.flaticon.com/512/219/219969.png" width="150px">
+      <h3>Sana Hameed</h3>
+      <hr class="light-line">
+      <p>Graphic Artist-Web Designer-Illustrator</p>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container text-center pt-3 pb-3 ">
+      <h1>Portfolio</h1>
+      <hr class="dark-line">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="cabin.png" alt="">
+        </div>
+        <div class="col-sm-4">
+          <img src="cake.png">
+          </div>
+          <div class="col-sm-4">
+            <img src="circus.png">
+          </div>
+        </div>
+        <div class="container pt-3 pb-3 pl-1 pr-1 ">
+        
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="game.png">
+          </div>
+          <div class="col-sm-4">
+            <img src="safe.png">
+          </div>
+          <div class="col-sm-4">
+            <img src="submarine.png">
+           </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="about">
+    <div class="container text-center pt-5 text-white">
+      <h1>About </h1>
+      <hr class="light-line">
+    </div>
+    <div class="container pb-5">
+      <div class="row align-items-start">
+        <div class="col text-white">
+          As a versatile freelance Graphic Artist, Web Designer, and Illustrator, I bring creativity to life
+          through
+          visually captivating designs. With a keen eye for detail, I specialize in crafting engaging
+          graphics,
+          designing user-friendly websites,
+          and illustrating concepts that resonate.
+        </div>
+        <div class="col text-white">
+          My commitment to delivering unique and impactful visual solutions ensures clients stand out in the
+          digital
+          landscape. Let's bring your ideas to fruition with a touch of artistic flair.
+        </div>
+      </div>
+      <div class="Download-button text-center pt-5 pb-4">
+        <button class="btn"><i class="fa fa-download"></i> Free Download</button>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container text-center pt-5 pb-5 text-dark">
+      <h1>Contact Me</h1>
+      <hr class="dark-line">
+    </div>
+    <div class="container mt-3">
+
+      <form action="/action_page.php">
+        <div class="mb-3 mt-1">
+
+          <input type="fullname" class="form-control" id="fullname" placeholder="Full Name" name="fullname">
+        </div>
+        <div class="mb-3">
+
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+        </div>
+        <div class="mb-3">
+
+          <input type="phonenumber" class="form-control" id="phone-number" placeholder="Phone-Number"
+            name="phone-number">
+        </div>
+        <div class="mb-3">
+        
+          <input="Message style="height: 100px; "class="form-control" id="Message" placeholder="Enter your Message here" name="Message">
+        </div>
+        <button type="submit" class="button">Send</button>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Location </h4>
+          <p>2215 John Daniel <br>
+            Clark MO 6548</p>
+</div>
+        <div class="col-md-4">
+          <h4>Around the Globe </h4>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-globe"></i>
+        </div>
+        <div class="col-md-4">
+          <h4>About the Freelancer</h4>
+          <p>
+            Freelance Graphic Artist and Web Designer<br>
+            weaving creativity into visual excellence
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="copyright">
+  <p> &copy; Sana Hameed 2024</p>
+</div>
+</div>
+</div>
+
+</body>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
